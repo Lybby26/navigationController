@@ -60,10 +60,8 @@
 		9AB825141FAE571700C035D8 /* MiNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				9AB825151FAE571700C035D8 /* AppDelegate.h */,
-				9AB825161FAE571700C035D8 /* AppDelegate.m */,
-				9AB825181FAE571700C035D8 /* ViewController.h */,
-				9AB825191FAE571700C035D8 /* ViewController.m */,
+				9AB8252F1FAE57B100C035D8 /* Main */,
+				9AB8252E1FAE57A600C035D8 /* Controllers */,
 				9AB8251B1FAE571700C035D8 /* Main.storyboard */,
 				9AB825211FAE571700C035D8 /* Assets.xcassets */,
 				9AB825231FAE571700C035D8 /* LaunchScreen.storyboard */,
@@ -72,6 +70,24 @@
 				9AB8251E1FAE571700C035D8 /* MiNavigationController.xcdatamodeld */,
 			);
 			path = MiNavigationController;
+			sourceTree = "<group>";
+		};
+		9AB8252E1FAE57A600C035D8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AB825181FAE571700C035D8 /* ViewController.h */,
+				9AB825191FAE571700C035D8 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9AB8252F1FAE57B100C035D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9AB825151FAE571700C035D8 /* AppDelegate.h */,
+				9AB825161FAE571700C035D8 /* AppDelegate.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
