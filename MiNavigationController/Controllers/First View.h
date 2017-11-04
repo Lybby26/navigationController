@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  First View.h
 //  MiNavigationController
 //
 //  Created by Mac Mini on 11/4/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface First_View : UIViewController
 
 @end
-

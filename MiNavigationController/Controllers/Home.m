@@ -6,13 +6,13 @@
 //  Copyright © 2017 lybby26. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Home.h"
 
-@interface ViewController ()
+@interface Home ()
 
 @end
 
-@implementation ViewController
+@implementation Home
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,4 +26,9 @@
 }
 
 
+- (IBAction)bnt1Pressed:(id)sender {
+}
+
+- (IBAction)bnt2Pressed:(id)sender {
+}
 @end

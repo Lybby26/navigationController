@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A5597FA1FAE678D002B3079 /* First View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5597F91FAE678D002B3079 /* First View.m */; };
+		9A5597FD1FAE67D6002B3079 /* Second View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5597FC1FAE67D6002B3079 /* Second View.m */; };
 		9AB825171FAE571700C035D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB825161FAE571700C035D8 /* AppDelegate.m */; };
-		9AB8251A1FAE571700C035D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB825191FAE571700C035D8 /* ViewController.m */; };
+		9AB8251A1FAE571700C035D8 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB825191FAE571700C035D8 /* Home.m */; };
 		9AB8251D1FAE571700C035D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8251B1FAE571700C035D8 /* Main.storyboard */; };
 		9AB825201FAE571700C035D8 /* MiNavigationController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8251E1FAE571700C035D8 /* MiNavigationController.xcdatamodeld */; };
 		9AB825221FAE571700C035D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB825211FAE571700C035D8 /* Assets.xcassets */; };
@@ -17,11 +19,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A5597F81FAE678D002B3079 /* First View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "First View.h"; sourceTree = "<group>"; };
+		9A5597F91FAE678D002B3079 /* First View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "First View.m"; sourceTree = "<group>"; };
+		9A5597FB1FAE67D6002B3079 /* Second View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Second View.h"; sourceTree = "<group>"; };
+		9A5597FC1FAE67D6002B3079 /* Second View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Second View.m"; sourceTree = "<group>"; };
 		9AB825121FAE571700C035D8 /* MiNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB825151FAE571700C035D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AB825161FAE571700C035D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9AB825181FAE571700C035D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9AB825191FAE571700C035D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AB825181FAE571700C035D8 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		9AB825191FAE571700C035D8 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		9AB8251C1FAE571700C035D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AB8251F1FAE571700C035D8 /* MiNavigationController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiNavigationController.xcdatamodel; sourceTree = "<group>"; };
 		9AB825211FAE571700C035D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,8 +81,12 @@
 		9AB8252E1FAE57A600C035D8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9AB825181FAE571700C035D8 /* ViewController.h */,
-				9AB825191FAE571700C035D8 /* ViewController.m */,
+				9AB825181FAE571700C035D8 /* Home.h */,
+				9AB825191FAE571700C035D8 /* Home.m */,
+				9A5597F81FAE678D002B3079 /* First View.h */,
+				9A5597F91FAE678D002B3079 /* First View.m */,
+				9A5597FB1FAE67D6002B3079 /* Second View.h */,
+				9A5597FC1FAE67D6002B3079 /* Second View.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -162,9 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AB825201FAE571700C035D8 /* MiNavigationController.xcdatamodeld in Sources */,
-				9AB8251A1FAE571700C035D8 /* ViewController.m in Sources */,
+				9AB8251A1FAE571700C035D8 /* Home.m in Sources */,
 				9AB825281FAE571700C035D8 /* main.m in Sources */,
+				9A5597FD1FAE67D6002B3079 /* Second View.m in Sources */,
 				9AB825171FAE571700C035D8 /* AppDelegate.m in Sources */,
+				9A5597FA1FAE678D002B3079 /* First View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
