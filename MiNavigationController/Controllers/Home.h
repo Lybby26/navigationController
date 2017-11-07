@@ -10,8 +10,8 @@
 
 @interface Home : UIViewController
 - (IBAction)bnt1Pressed:(id)sender;
-
 - (IBAction)bnt2Pressed:(id)sender;
+- (IBAction)btn3Pressed:(id)sender;
 
 @end
 

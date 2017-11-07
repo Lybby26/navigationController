@@ -31,4 +31,7 @@
 
 - (IBAction)bnt2Pressed:(id)sender {
 }
+
+- (IBAction)btn3Pressed:(id)sender {
+}
 @end

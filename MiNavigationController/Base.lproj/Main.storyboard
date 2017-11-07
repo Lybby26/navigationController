@@ -17,20 +17,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dcO-zx-ZBI">
-                                <rect key="frame" x="107" y="306" width="139" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pantalla roja"/>
-                                <connections>
-                                    <action selector="bnt2Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zVU-Nf-OAK"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vqy-dn-yoy">
                                 <rect key="frame" x="73" y="113" width="200" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pantalla azul"/>
                                 <connections>
                                     <action selector="bnt1Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3wl-Cd-dte"/>
+                                    <segue destination="Dtd-Ns-xlw" kind="push" id="PYt-7B-IMr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dcO-zx-ZBI">
+                                <rect key="frame" x="104" y="256" width="139" height="58"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pantalla roja"/>
+                                <connections>
+                                    <action selector="bnt2Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zVU-Nf-OAK"/>
+                                    <segue destination="VMF-Zi-gfZ" kind="push" id="F9t-dZ-ZoL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lbw-pE-0eJ">
+                                <rect key="frame" x="96" y="451" width="139" height="58"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pantalla verde"/>
+                                <connections>
+                                    <action selector="btn3Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rmi-KX-2X8"/>
+                                    <segue destination="48m-4C-757" kind="modal" id="8u9-yc-vMn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,33 +53,60 @@
             </objects>
             <point key="canvasLocation" x="817.5" y="139.5"/>
         </scene>
-        <!--View Controller-->
+        <!--First View-->
         <scene sceneID="fnC-Bo-HmB">
             <objects>
-                <viewController id="Dtd-Ns-xlw" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="First_View" id="Dtd-Ns-xlw" customClass="First_View" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tEH-MG-Sfy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.036450967192649841" green="0.7667270302772522" blue="0.97624140977859497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="NSW-tZ-2KL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfF-aE-sPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1332" y="-147"/>
+            <point key="canvasLocation" x="1573" y="-912"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View-->
         <scene sceneID="6mt-jf-AJl">
             <objects>
-                <viewController id="VMF-Zi-gfZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Second_View" id="VMF-Zi-gfZ" customClass="Second_View" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b1d-aP-fVs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="JAp-4p-Z1R"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I2d-dw-cw4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1332" y="610"/>
+            <point key="canvasLocation" x="1573" y="-19"/>
+        </scene>
+        <!--Third View-->
+        <scene sceneID="Yx4-Ci-Bqj">
+            <objects>
+                <viewController storyboardIdentifier="Third_View" id="48m-4C-757" customClass="Third_View" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G4X-xD-tRg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mxn-Ge-kmj">
+                                <rect key="frame" x="87" y="154" width="200" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Cerrar"/>
+                                <connections>
+                                    <action selector="btnClosePressed:" destination="48m-4C-757" eventType="touchUpInside" id="OjP-F2-kU7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.52937871217727661" green="0.91525334119796753" blue="0.54913455247879028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zdr-fg-Mda" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1570" y="769"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KwN-Bh-xVX">

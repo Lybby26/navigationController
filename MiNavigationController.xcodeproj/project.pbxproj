@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9A5597FA1FAE678D002B3079 /* First View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5597F91FAE678D002B3079 /* First View.m */; };
 		9A5597FD1FAE67D6002B3079 /* Second View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5597FC1FAE67D6002B3079 /* Second View.m */; };
+		9A5598001FAFBEBF002B3079 /* Third View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5597FF1FAFBEBF002B3079 /* Third View.m */; };
 		9AB825171FAE571700C035D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB825161FAE571700C035D8 /* AppDelegate.m */; };
 		9AB8251A1FAE571700C035D8 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB825191FAE571700C035D8 /* Home.m */; };
 		9AB8251D1FAE571700C035D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8251B1FAE571700C035D8 /* Main.storyboard */; };
@@ -23,6 +24,8 @@
 		9A5597F91FAE678D002B3079 /* First View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "First View.m"; sourceTree = "<group>"; };
 		9A5597FB1FAE67D6002B3079 /* Second View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Second View.h"; sourceTree = "<group>"; };
 		9A5597FC1FAE67D6002B3079 /* Second View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Second View.m"; sourceTree = "<group>"; };
+		9A5597FE1FAFBEBF002B3079 /* Third View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Third View.h"; sourceTree = "<group>"; };
+		9A5597FF1FAFBEBF002B3079 /* Third View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Third View.m"; sourceTree = "<group>"; };
 		9AB825121FAE571700C035D8 /* MiNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB825151FAE571700C035D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AB825161FAE571700C035D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				9A5597F91FAE678D002B3079 /* First View.m */,
 				9A5597FB1FAE67D6002B3079 /* Second View.h */,
 				9A5597FC1FAE67D6002B3079 /* Second View.m */,
+				9A5597FE1FAFBEBF002B3079 /* Third View.h */,
+				9A5597FF1FAFBEBF002B3079 /* Third View.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				9AB825281FAE571700C035D8 /* main.m in Sources */,
 				9A5597FD1FAE67D6002B3079 /* Second View.m in Sources */,
 				9AB825171FAE571700C035D8 /* AppDelegate.m in Sources */,
+				9A5598001FAFBEBF002B3079 /* Third View.m in Sources */,
 				9A5597FA1FAE678D002B3079 /* First View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
